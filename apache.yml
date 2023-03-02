@@ -7,7 +7,7 @@
        name: "apache2"
        state: "present"
     - name: starting service
-       name: apach2
+       name: apache2
        state: started
        enabled: True
     - name: copy
