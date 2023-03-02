@@ -12,6 +12,6 @@
        state: started
        enabled: True
     - name: deploying
-       template:
+      template:
        src: index.html
        dest: /var/www/html/
