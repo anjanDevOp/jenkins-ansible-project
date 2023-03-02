@@ -11,7 +11,7 @@
        name: apache2
        state: started
        enabled: True
-    - name: copy
-       copy:
+    - name: deploying
+       template:
           src: index.html
           dest: /var/www/html/
