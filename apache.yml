@@ -4,11 +4,11 @@
   tasks:
     - name: installing apache
       yum: 
-       name: "apache2"
+       name: "apache2-bin"
        state: "present"
     - name: starting service
       service:
-       name: apache2
+       name: apache2-bin
        state: started
        enabled: True
     - name: deploying
